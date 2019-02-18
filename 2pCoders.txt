@@ -1,0 +1,46 @@
+PYTHON PROJECT
+
+HANGMAN  2.0
+
+DEVELOPED BY: 2pCoders
+
+DEVELOPERS :K.Sailesh(IMT2017524) (GAMING PART)
+            K.Prakash(IMT20175)   (INTRODUCTION)
+
+
+
+DESCRIPTION IN BREIF:
+
+>>>Hangman 2.0 is a bit different and improvized version of the original hangman.
+
+>>>It is a 2 player game.Here unlike the computer generating a word randomly one player(challenger gives a  word) and the challenge tries to guess the word.
+
+>>>Player1 would give the word and specify the topic it is related to.Then player 2 would be given 5 chances to guess the word failing which results in the victory of player1.
+
+>>>If player2 guesses the given word within five chances it would lead to the victotry of player2.
+
+>>>And as the game ends winner hangs the loser!!!!
+
+
+
+RESOURCES:
+
+1)Images -- Google images
+
+2)Drawings(hangman) -- MS Paint
+
+3)Sounds & Music – Freesound.org
+
+4)Pygame Library
+
+
+
+THEORY:
+
+We have made use of pygame a library in python used for making games etc. to build the gui for the hangman 2.0 .
+
+The game begins with the display of title continue by display of rules and the prizes for winner and loser.
+
+The winner of the game hangs the loser of the game.(for fun in the game itself).So inorder to prevent any influence of the game on the players a warning message is displayed (Agreeing that nothing of this sort is done outside the game).Only on agreeing the players are allowed to continue.There are two players .
+
+Player1 gives a word and Player2 has to guess it.player1 types the word which is not displayed on the screen and player2 is kept in dark about the word..Then player1 types the topic ,the word is related to which is displayed on the screen and player2 knows.player2 has 5 chances to guess the letters of the word failing which player1 is declared the winner.If player2 guesses the whole word within 5 chances then he is the winner.Else player1 is the winner.
